@@ -4,3 +4,126 @@
 * {
 	box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;;
+}
+
+html,
+body {
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+header {
+	background: url('../img/capa-madmax2.jpg') no-repeat;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	height: 90vh;
+	width: 100%;
+	padding: 24px;
+}
+
+/* nav */
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: 0 auto;
+	width: 70%;
+	max-width: 960px;
+/* width: 70vw; */
+}
+
+.nav-list li {
+	margin: 0 25px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.nav-profile {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center; 
+}
+
+.nav-profile img {
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+
+.nav-profile span {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/* content header */
+.content {
+	margin: 0 auto;
+	width: 70%;
+	max-width: 960px;
+	/* width: 70vw; */
+}
+
+.content-title h1 {
+	margin: 0;
+	font-size: 6.4rem;
+}
+
+.content-list {
+	padding: 24px 0;
+}
+
+.content-list li {
+	margin-right: 16px;
+	font-size: 1.2rem;
+}
+
+.content-button {
+	color: #333;
+	font-weight: bold;
+	background-color: #e4bb23;
+	border-radius: 40px;
+
+	margin: 0;
+	padding: 16px 40px;
+	transition: all 0.2s;
+}
+
+.content-button i {
+	font-size: 2.0rem;
+	padding-left: 8px;
+}
+
+.content-info {
+	padding-top: 32px; 
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+.date {
+	color: #e4bb23;
+}
