@@ -12,8 +12,8 @@
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
-		<header class="container">
-			<nav class="nav">
+		<header>
+			<nav class="nav container">
 				<a class="nav-logo" href="#">
 					<img src="./img/logo-imdb.jpg" alt="logo">
 				</a>
@@ -25,18 +25,13 @@
 				</ul>
 				
 				<div class="nav-profile">
-					<div class="photo-profile">
-						<img src="./img/walter-white.jpg" alt="profile">
-					</div>
+					<img src="./img/walter-white.jpg" alt="profile">
 					<span>Walter White</span>
 				</div>
 			</nav>
 
-			<!-- content -->
-			<div class="content">
-				<div class="content-title">
-					<h1>MAD MAX: ESTRADA DA FÚRIA</h1>
-				</div>
+			<div class="content container">
+				<h1 class="content-title">MAD MAX: ESTRADA DA FÚRIA</h1>
 
 				<ul class="content-list">
 					<li><a href="#">AVENTURA</a></li>
@@ -51,15 +46,14 @@
 
 				<div class="content-info">
 					<p>Nos cinemas</p>
-					<p class="date">15 de Outubro de 2015 (Brasil)</p>
+					<p>15 de Outubro de 2015 (Brasil)</p>
 				</div>
 			</div>
 		</header>
 
-		<!-- catalogo -->
+		
 		<section class="catalogo">
-			<!-- nav -->
-			<nav class="menu-catalogo">
+			<nav class="menu-catalogo container">
 				<ul class="catalogo-list">
 					<li><a href="#">NOS CINEMAS</a></li>
 					<li><a href="#">EM BREVE</a></li>
@@ -69,11 +63,11 @@
 				</ul>
 			</nav>
 
-			<!-- movies -->
-			<div class="movies">
+			<div class="movies container">
 				<ul class="movie-list">
+
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-moonlight.jpg" alt="MOONLIGHT">
 							
 							<div class="movie-poster-hover">
@@ -82,7 +76,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">MOONLIGHT</p>
@@ -91,15 +85,15 @@
 								<a href="#" class="type">Drama</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 					
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-bladerunner.jpg" alt="BLADE RUNNER">
 							
 							<div class="movie-poster-hover">
@@ -108,7 +102,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">BLADE RUNNER</p>
@@ -118,15 +112,15 @@
 								<a href="#" class="type">SCI-FI</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-mad-max.jpg" alt="MAD MAX">
 							
 							<div class="movie-poster-hover">
@@ -135,7 +129,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">MAD MAX</p>
@@ -146,15 +140,15 @@
 								<a href="#" class="type">Terror</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-alita.jpg" alt="ALITA">
 							
 							<div class="movie-poster-hover">
@@ -163,7 +157,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">ALITA</p>
@@ -173,15 +167,15 @@
 								<a href="#" class="type">SCI-FI</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-batman-superman.jpg" alt="BATMAN VS SUPERMAN">
 							
 							<div class="movie-poster-hover">
@@ -190,7 +184,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">BATMAN VS SUPERMAN</p>
@@ -200,15 +194,15 @@
 								<a href="#" class="type">Drama</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-jurassic-world.jpg" alt="JURASSIC WORLD">
 							
 							<div class="movie-poster-hover">
@@ -217,7 +211,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">JURASSIC WORLD</p>
@@ -227,15 +221,15 @@
 								<a href="#" class="type">Terror</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-guerra-civil.jpg" alt="GUERRA CIVIL">
 							
 							<div class="movie-poster-hover">
@@ -244,7 +238,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">GUERRA CIVIL</p>
@@ -254,15 +248,15 @@
 								<a href="#" class="type">Ação</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-capita-marvel.jpg" alt="CAPITÃ MARVEL">
 							
 							<div class="movie-poster-hover">
@@ -271,7 +265,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">CAPITÃ MARVEL</p>
@@ -280,15 +274,15 @@
 								<a href="#" class="type">SCI-FI</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-coringa.jpg" alt="CORINGA">
 							
 							<div class="movie-poster-hover">
@@ -297,7 +291,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">CORINGA</p>
@@ -307,15 +301,15 @@
 								<a href="#" class="type">Drama</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-liga-justica.jpg" alt="LIGA DA JUSTIÇA">
 							
 							<div class="movie-poster-hover">
@@ -324,7 +318,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">LIGA DA JUSTIÇA</p>
@@ -334,15 +328,15 @@
 								<a href="#" class="type">Ação</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-star-wars.jpg" alt="STAR WARS VII">
 							
 							<div class="movie-poster-hover">
@@ -351,7 +345,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">STAR WARS VII</p>
@@ -361,15 +355,15 @@
 								<a href="#" class="type">SCI-FI</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 					<li class="movie-item">
-						<div class="movie-poster">
+						<figure class="movie-poster">
 							<img src="./img/poster-pantera-negra.jpg" alt="PANTERA NEGRA">
 							
 							<div class="movie-poster-hover">
@@ -378,7 +372,7 @@
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
-						</div>
+						</figure>
 
 						<div class="movie-info">
 							<p class="movie-title">PANTERA NEGRA</p>
@@ -388,33 +382,29 @@
 								<a href="#" class="type">SCI-FI</a>
 							</p>
 
-							<p class="movie-footer">
+							<div class="movie-footer">
 								<i class="fa fa-heart"></i>
 								<span>7.0</span>
-							</p>
+							</div>
 						</div>
 					</li>
 
 				</ul>
 			</div>
 		</section>
-		<footer>
+
+		<footer class="container">
 			<img src="./img/logo-imdb.jpg" alt="logo">
+
 			<ul class="icons">
 				<li>
-					<a href="#">
-						<i class="fa fa-twitter"></i>
-					</a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
 				</li>
 				<li>
-					<a href="#">
-						<i class="fa fa-facebook-official"></i>
-					</a>
+					<a href="#"><i class="fa fa-facebook-official"></i></a>
 				</li>
 				<li>
-					<a href="#">
-						<i class="fa fa-instagram"></i>
-					</a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
 				</li>
 			</ul>
 		</footer>
