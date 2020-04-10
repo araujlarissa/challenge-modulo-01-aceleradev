@@ -1,6 +1,8 @@
-# Site estático: 🎥 IMDB  
+<h1 align="center">Site estático: 🎥 IMDB</h1>
 
-![img](./public/img/challenge-modulo-01.gif)
+<div align="center">
+    <img alt="IMDB" src="./public/img/challenge-modulo-01.gif" />
+</div>
   
 ## Objetivo: 
 O desafio é desenvolver a página inicial de um site de avaliação de filmes (IMDB - Internet Movies Database) utilizando apenas **HTML5** e **CSS3**.
